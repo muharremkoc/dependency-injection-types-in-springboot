@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="q" class="com.example.springbootdependencyinjectiontypes.setter.withcollections.Question">
+        <property name="questionNumber" value="1"/>
+        <property name="quest" value="What is Your Name?"/>
+        <property name="answers">
+            <list>
+                <value>My Name is Muharrem</value>
+                <value>My Name is Muharrem Koç</value>
+            </list>
+        </property>
+
+        <property name="answersWithNumbers">
+            <map>
+                <entry key="Name Value 1" value="Muharrem"/>
+                <entry key="Name Value 2" value="Muharrem Koç"/>
+            </map>
+        </property>
+    </bean>
+</beans>
