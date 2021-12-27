@@ -4,7 +4,7 @@ The benefit of Dependency Injection is that it combines Code comfortably and fac
 
 ## Basics
 
-## For Setter Injection
+### For Setter Injection
 
 We can inject objects using Setter. Two basic structures that we will use in XML are important in the injection method with Setter. These structures
  bean: The object to inject. We specify the ID and Path of our object.
@@ -19,7 +19,7 @@ We can inject objects using Setter. Two basic structures that we will use in XML
 
  
 ---
-## For Constructor Injection
+### For Constructor Injection
 Constructor Injection, In this method, we produce a constructor of our primitive definitions or Linked objects instead of a setter methods in our Object and specify it in our XML file.
    What is important in this method is our concept.
  constructor-arg value: The arguments and values of the constructor we created in our object.
